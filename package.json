@@ -4,13 +4,13 @@
   "description": "gb email",
   "main": "server.js",
   "scripts": {
-    "test": "test",
     "client-install": "npm install --prefix gbmail",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix gbmail",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix gbmail  && npm run build --prefix gbmail"
+    "gbmail": "npm start --prefix gbmail",
+    "dev": "concurrently \"npm run server\" \"npm run gbmail\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix gbmail && npm run build --prefix gbmail",
+    "test": "test"
   },
   "repository": {
     "type": "git",
