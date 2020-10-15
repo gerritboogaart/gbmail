@@ -3,7 +3,7 @@
 To run locally:
 npm run dev
 
-This will concurrently run the server and the UI with concurrently "npm run server" "npm run gbmail"
+This will run the server and the UI with concurrently "npm run server" "npm run gbmail"
 
 <b>What this app does:</b>
 
