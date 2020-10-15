@@ -1,0 +1,58 @@
+.email-table {
+  background: white;
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.email-table tr {
+  line-height: 2.2rem;
+  cursor: pointer;
+}
+
+.email-table td {
+  padding-left: .5rem;
+}
+
+.td-select {
+  width: 3%;
+  text-align: center;
+}
+.td-sender { width: 20% }
+.td-subject { width: 60% }
+.td-date { width: 20% }
+
+.email-full {
+  background-color: white;
+  color: darkslategray;
+  padding: .8rem;
+}
+
+.email-top {
+  line-height: 2rem;
+}
+
+.email-subject {
+  font-size: 2rem;
+}
+
+.email-tag {
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  margin-left: .5rem;
+  font-size: 1rem;
+  background: lightgrey;
+  padding: .5rem;
+  border-radius: .5rem;
+  line-height: 1rem;
+}
+
+.selected-row {
+  background: lightgray;
+}
+
+.email-body {
+  margin-top: 2rem;
+  border-top: 1px solid lightgrey;
+  padding: 1rem .25rem;
+}

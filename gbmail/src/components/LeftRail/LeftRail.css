@@ -1,0 +1,21 @@
+.left-rail {
+  color: white;
+}
+
+.left-rail ul {
+  list-style: none;
+  line-height: 2rem;
+  cursor: pointer;
+  padding-left: inherit;
+  margin-left: .5rem;
+}
+
+.left-rail .tag {
+  padding: 0rem 0.5rem;
+}
+
+.left-rail .selected-tag {
+  background-color: lightgray;
+  border-radius: .5rem;
+  color: darkslategray;
+}

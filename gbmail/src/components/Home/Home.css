@@ -1,0 +1,13 @@
+.main-page-center {
+  display: flex;
+}
+.left-rail {
+  flex:1;
+  min-width: 11rem;
+  max-width: 11rem;
+}
+
+.main-emails {
+  flex: 8;
+  padding-left: 10px;
+}

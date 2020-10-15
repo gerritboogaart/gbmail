@@ -1,0 +1,30 @@
+.top-nav {
+  width: 100vw;
+  height: 4rem;
+  padding: .5rem;
+}
+
+.email-logo-icon {
+  color: white;
+  line-height: inherit!important;
+  cursor: pointer;
+}
+
+.email-logo-text {
+  display: inline-block;
+  color: #e69696;
+  font-size: 2rem;
+}
+
+.single-email {
+  color: white;
+}
+
+.search-box-holder {
+  margin-left: 0rem;
+}
+
+.logo-holder {
+  width: 11rem;
+  display: inline-block;
+}
